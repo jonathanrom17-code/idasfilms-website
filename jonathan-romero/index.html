@@ -7,10 +7,10 @@
   <meta name="theme-color" content="#111210">
   <meta name="description" content="Film, video production, and event photography by Jonathan Romero in Phoenix, Arizona.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Jonathan Romero | IDAS Films">
+  <meta property="og:title" content="Jonathan Romero | Portfolio">
   <meta property="og:description" content="Film, video production, and event photography by Phoenix filmmaker Jonathan Romero.">
   <link rel="canonical" href="https://www.idasfilms.com/jonathan-romero/">
-  <title>Jonathan Romero | IDAS Films</title>
+  <title>Jonathan Romero | Portfolio</title>
   <style>
     :root {
       color-scheme: dark;
@@ -58,9 +58,9 @@
 
     .skip-link:focus { transform: none; }
 
-    .header, .footer { border-bottom: 1px solid var(--line); }
+    .header { border-bottom: 1px solid var(--line); }
 
-    .header-inner, .footer-inner {
+    .header-inner {
       display: flex;
       min-height: 4.15rem;
       align-items: center;
@@ -85,7 +85,7 @@
       gap: 0 clamp(0.7rem, 3vw, 1.75rem);
     }
 
-    nav a, .text-link {
+    nav a {
       display: inline-flex;
       min-height: 2.75rem;
       align-items: center;
@@ -94,7 +94,7 @@
       text-decoration: none;
     }
 
-    nav a:hover, .text-link:hover, .brand:hover { color: var(--accent); }
+    nav a:hover, .brand:hover { color: var(--accent); }
 
     .intro {
       padding-block: clamp(3.25rem, 7vw, 6.5rem) clamp(3.5rem, 7vw, 6.5rem);
@@ -209,9 +209,6 @@
       overflow-wrap: anywhere;
     }
 
-    .footer { border-top: 1px solid var(--line); border-bottom: 0; }
-    .footer-inner { color: var(--muted); font-size: 0.94rem; }
-
     .photo-dialog {
       width: min(66rem, calc(100% - 1.25rem));
       max-width: none;
@@ -285,7 +282,7 @@
 
   <header class="header">
     <div class="shell header-inner">
-      <a class="brand" href="https://www.idasfilms.com/" aria-label="IDAS Films home">IDAS</a>
+      <a class="brand" href="#main" aria-label="Jonathan Romero portfolio introduction">JR</a>
       <nav aria-label="Portfolio">
         <a href="#video">Event reel</a>
         <a href="#youtube">YouTube</a>
@@ -378,13 +375,6 @@
       <a class="contact-link" href="mailto:jonathanrom17@gmail.com?subject=Jonathan%20Romero%20portfolio%20inquiry">jonathanrom17@gmail.com</a>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="shell footer-inner">
-      <span>Jonathan Romero</span>
-      <a class="text-link" href="https://www.idasfilms.com/">Back to IDAS Films</a>
-    </div>
-  </footer>
 
   <dialog class="photo-dialog" id="photo-viewer" aria-label="Event photo viewer">
     <div class="dialog-toolbar">
